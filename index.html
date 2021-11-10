@@ -26,9 +26,9 @@
         </div>
     </header>
     <main>
-        <div class="container text-center p-0">
-            <p class="h2 text-uppercase py-3">Portfolio</p>
-            <div class="row">
+        <div class="container p-0">
+            <p class="h2 text-uppercase py-3 text-center">Portfolio</p>
+            <div class="row text-center">
                 <div class="col-4 border rounded p-0 m-3">
                     <img class="w-100" src="img/cabin.png" alt="Cabin">
                     <p class="py-3 h5">Cabin Website</p>
@@ -54,7 +54,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row text-center">
                 <div class="col-4 border rounded p-0 m-3">
                     <img class="w-100" src="img/game.png" alt="Cabin">
                     <p class="py-3 h5">Game Website</p>
@@ -92,10 +92,60 @@
                     <button class="p-2 text-white bg-info border border-white rounded"><i class="bi bi-download"></i> Download</button>
                 </div>
             </div>
+            <div>
+                <form action="#" class="row py-5">
+                    <h3 class="text-uppercase text-center" id="contact">Contact me</h3>
+                    <div class="col-6 py-1">
+                        <label class="h6 form-label" for="first-name">First name</label>
+                        <input class="text-secondary form-control" type="text" placeholder="Enter your first name...">
+                    </div>
+                    <div class="col-6 py-1">
+                        <label class="h6 form-label" for="last-name">Last name</label>
+                        <input class="text-secondary form-control" type="text" placeholder="Enter your last name...">
+                    </div>
+                    <div class="col-6 py-1">
+                        <label class="h6 form-label" for="email">Email address</label>
+                        <input class="text-secondary form-control" type="email" placeholder="name@example.com">
+                    </div>
+                    <div class="col-6 py-1">
+                        <label class="h6 form-label" for="phone-number">Phone number</label>
+                        <input class="text-secondary form-control" type="number" placeholder="(123) 456-7890">
+                    </div>
+                    <div class="col-12 py-1">
+                        <label class="h6 form-label" for="message">Message</label>
+                        <textarea class="text-secondary form-control" id="message" rows="3" placeholder="Enter your message here..."></textarea>
+                    </div>
+                    <div class="col-12 text-center py-1">
+                        <button class="p-2 bg-info border rounded h6"><i class="bi bi-send"></i> Send</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </main>
     <footer>
-
+        <div class="container bg-dark p-0">
+            <div class="row text-secondary text-center m-4 p-0">
+                <div class="col-6 py-5">
+                    <p class="text-uppercase h5">Location</p>
+                </div>
+                <div class="col-6 py-5">
+                    <p class="text-uppercase h5">Around the Web</p>
+                </div>
+                <div class="col-6">
+                    <p>2215 John Daniel Drive</p>
+                    <p>Clark, MO 65243</p>
+                </div>
+                <div class="col-6">
+                    <button class="text-secondary p-2 mx-1 bg-dark border border-secondary rounded h6"><i class="bi bi-facebook"></i></button>
+                    <button class="text-secondary p-2 mx-1 bg-dark border border-secondary rounded h6"><i class="bi bi-twitter"></i></button>
+                    <button class="text-secondary p-2 mx-1 bg-dark border border-secondary rounded h6"><i class="bi bi-linkedin"></i></button>
+                    <button class="text-secondary p-2 mx-1 bg-dark border border-secondary rounded h6"><i class="bi bi-instagram"></i></button>
+                </div>
+                <div class="col-12">
+                    <p class="fs-6">Copyright &copy; Your Website 2021</p>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
